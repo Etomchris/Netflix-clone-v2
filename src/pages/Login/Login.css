@@ -1,0 +1,114 @@
+.login{
+    height: 100vh;
+    background-image: linear-gradient(hsla(0, 0%, 0%, 0.494), hsla(0, 0%, 0%, 0.494)), url(/public/background_banner.jpg) ;
+    padding: 20px 8%;
+}
+.login img{
+    width: 150px;
+}
+.login-form{
+    width: 100%;
+    max-width: 450px;
+    margin: auto;
+    padding: 60px;
+    border-radius: 5px;
+    background: rgba(0,0,0,0.75);
+}
+.login-form h1{
+    font-size: 32px;
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+.login-form input{
+    width: 100%;
+    height: 50px;
+    padding: 10px;
+    margin: 12px 0;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    background: rgba(255,255,255,0.1);
+    font-size: 16px;
+    font-weight: 500;
+    color: #fff;
+}
+.login-form input::placeholder{
+   font-size: 16px;
+    font-weight: 500;
+}
+.login-form button{
+    width: 100%;
+    height: 50px;
+    margin-top: 20px;
+    border: none;
+    outline: none;
+    background: hsl(0, 89%, 55%);
+    color: #fff;
+    font-size: 18px;
+    font-weight: 500;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.form-help{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: hsl(0, 0%, 70%);
+    font-size: 13px;
+}
+.remeber{
+    display: flex;
+    align-items: center;
+    
+}
+.remeber input{
+   width: 18px;
+    height: 18px;
+    margin-right: 10px;
+}
+.form-switch{
+    margin-top: 40px;
+    color: hsl(0, 0%, 70%);
+}
+.form-switch span{
+    margin-left: 6px;
+    cursor: pointer;
+    color: #fff;
+    font-weight: 500;
+}
+.login-loading{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+}
+.login-loading img{
+    width: 60px;
+}
+
+@media screen and (max-width: 768px){
+    .login{
+        padding: 20px 5%;
+    }
+    .login-form{
+        padding: 40px;
+    }
+    .login-form h1{
+        font-size: 28px;
+    }
+    .login-form input{
+        height: 45px;
+        font-size: 15px;
+    }
+    .login-form button{
+        height: 45px;
+        font-size: 16px;
+    }
+    .form-help{
+        font-size: 12px;
+    }
+    .form-switch{
+        margin-top: 30px;
+    }
+}
